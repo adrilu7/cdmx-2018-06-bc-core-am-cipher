@@ -7,18 +7,32 @@
   </head>
   <body>
 
-    <h1>Codigo Cesar</h1>
-
-    <input type="text" id="entrada" placeholder="Introduce Texto">
-    <input type="text" id="llave" placeholder="Llave">
-  <div>
-    <button id="cifrar">Cifrar Texto</button>
-    <button id="descifrar">Descifrar Texto</button>
+  <div class="uno">
+    <h1>Codigos Secretos</h1>
+    <p>Aqui podras cifrar y descifrar cualquier tipo de mensaje junto con
+      una clave y enviarlo a quien tu quieras.</p>
   </div>
 
-  <div id="resultado">
+  <div class="dos clearfix">
+        <div class="tres divboton">
+          <button id="cifrar" class="boton">Cifrar Texto</button>
+        </div>
+        <div class="tres">
+          <p>Escribe el mensaje que desees cambiar </p>
+          <input type="text" id="entrada" placeholder="Introduce Texto">
+          <p>Introduce clave secreta (solo numeros)</p>
+          <input type="text" id="offset" placeholder="clave">
+        </div>
+        <div class="tres divboton">
+          <button id="descifrar" class="boton">Descifrar Texto</button>
+        </div>
+  </div>
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <div id="resultado" class="cuatro">
+
+  </div>
+
   </body>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 </html>

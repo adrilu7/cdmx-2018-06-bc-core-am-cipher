@@ -1,0 +1,86 @@
+body{
+  margin-top: -10px;
+  background-image:url(https://www.planwallpaper.com/static/images/cool-backgrounds-random-17514354-1024-640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.uno {
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffa903;
+  font-family: ‘Comic Sans MS’, cursive;
+}
+.uno p{
+  color:rgb(81, 174, 204) ;
+  font-family: Impact, Charcoal, sans-serif;
+
+}
+.dos{
+  clear: both;/*La propiedad clear especifica en qué lado de un elemento flotante no se permite flotar.*/
+font-family: ‘Comic Sans MS’, cursive;
+}
+
+.tres{
+  float: left;
+  width: 33%;
+  text-align: center;
+  color: #fff200;
+  font-family: ‘Comic Sans MS’, cursive;
+
+}
+.tres p{
+font-size: 1.3em;
+}
+.cuatro{
+  margin: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #a900ff;
+  font-family: Impact, Charcoal, sans-serif;
+
+}
+input[type=text]{
+    background-color: #00a9ff;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1em;
+}
+input[type=text]::placeholder {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+}
+.boton{
+   background-color: #ff00a9;
+   font-size: 1.1em;
+   font-weight: bold;
+   color: white;
+   padding: 10px;
+   border: none;
+   cursor: pointer;
+   width: 40%;
+   font-family: ‘Comic Sans MS’, cursive;
+}
+.divboton{
+  margin-top: 100px;
+
+}
+
+.clearfix:before,
+.clearfix:after {/*Clase para limpiar floats*/
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {/*Clase para limpiar floats*/
+    clear: both;
+}
