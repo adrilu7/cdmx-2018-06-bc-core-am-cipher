@@ -1,9 +1,9 @@
 window.cipher = {
   //////funciones////////////////////
   encode:(offset,string) => {// tex llave ya llame con evento
-    let resultado =" ";//  es para que concatene toda la frase y se muestre en DOM
+    let resultado ="";//  es para que concatene toda la frase y se muestre en DOM
 
-    for (i=0; i<string.length; i++){// inicializa en 0 el recorrido de la frase
+    for (let i=0; i<string.length; i++){// inicializa en 0 el recorrido de la frase
       let cadenas = string.charCodeAt(i);//convierte las letras de la frase en posicion ascii
 
     if(cadenas >=65 && cadenas <= 90){// para mayusculas ascii
@@ -20,15 +20,15 @@ window.cipher = {
 
         }
       }
-     return ("<p>Tu texto cifrado es:</p> "+resultado);
+     return ("<p>Tu texto cifrado es:</p> "+ resultado);
 
    },
 
   decode:(offset,string) =>{
     console.log(string);
-    let resultado =" ";//  es para que concatene toda la frase y se muestre en DOM
+    let resultado ="";//  es para que concatene toda la frase y se muestre en DOM
 
-    for (i=0; i<string.length; i++){// inicializa en 0 el recorrido de la frase
+    for (let i=0; i<string.length; i++){// inicializa en 0 el recorrido de la frase
       let cadenas = string.charCodeAt(i);//convierte las letras de la frase en posicion ascii
       //console.log(cadenas);
 
