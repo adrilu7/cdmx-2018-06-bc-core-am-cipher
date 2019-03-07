@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <title>Cifrado César</title>
+  <link rel="icon" href="img/Cifrado.jpg">
+</head>
+
+<body>
   <div class="uno">
-    <h1>Codigos Secretos</h1>
-    <p>Aqui podras cifrar y descifrar cualquier tipo de mensaje junto con
-      una clave y enviarlo a quien tu quieras.</p>
+    <H1>Cifrado César</H1>
+    <P>Aquí podrás cifrar y descifrar cualquier tipo de mensaje junto con
+      una clave y enviarlo a quien desees. </P>
   </div>
-
   <div class="dos clearfix">
-        <div class="tres divboton">
-          <button id="cifrar" class="boton">Cifrar Texto</button>
-        </div>
-        <div class="tres">
-          <p>Escribe el mensaje que desees cambiar </p>
-          <input type="text" id="entrada" placeholder="Introduce Texto">
-          <p>Introduce clave secreta (solo numeros)</p>
-          <input type="text" id="offset" placeholder="clave">
-        </div>
-        <div class="tres divboton">
-          <button id="descifrar" class="boton">Descifrar Texto</button>
-        </div>
+    <div class="tres divboton">
+      <button id="cifrar" class="boton">Cifrar Texto</button>
+    </div>
+    <div class="tres">
+      <p>Escribe el mensaje que desees cambiar </p>
+      <input type="text" id="entrada" placeholder="Introduce Texto">
+      <p>Introduce clave secreta (solo nùmeros)</p>
+      <input type="text" id="offset" placeholder="Clave">
+    </div>
+    <div class="tres divboton cinco">
+      <button id="descifrar" class="boton">Descifrar Texto</button>
+    </div>
   </div>
-
   <div id="resultado" class="cuatro">
-
   </div>
+</body>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
 
-  </body>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
 </html>

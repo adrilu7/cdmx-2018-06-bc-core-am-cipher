@@ -9,19 +9,14 @@ window.cipher = {
     if(cadenas >=65 && cadenas <= 90){// para mayusculas ascii
       resultado += String.fromCharCode((cadenas -65 + offset) %26 + 65);// se convierte las posiciones en letras
 
-      console.log(resultado);
-
     }else if(cadenas >=97 && cadenas <=122){// para minusculas
       resultado+= String.fromCharCode((cadenas -97 + offset) %26 + 97 );
 
-
     }else if (cadenas >=32 && cadenas <=64){// PARA CARACTERES ESPECIALES
        resultado+=String.fromCharCode(cadenas);
-
         }
       }
-     return ("<p>Tu texto cifrado es:</p> "+ resultado);
-
+     return ("<p>El texto cifrado es:</p>" + resultado);
    },
 
   decode:(offset,string) =>{
@@ -42,11 +37,9 @@ window.cipher = {
 
     }else if (cadenas >=32 && cadenas <=64){// PARA CARACTERES ESPECIALES
       resultado+=String.fromCharCode(cadenas);
-
        }
         }
-
-        return ("<p>Tu texto descifrado es:</p> "+ resultado);
+        return ("<p>El texto descifrado es:</p>" + resultado);
       },
 
       createCipherWithOffset: () =>{}

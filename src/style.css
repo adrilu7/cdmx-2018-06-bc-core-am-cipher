@@ -1,6 +1,6 @@
 body{
   margin-top: -10px;
-  background-image:url(https://www.planwallpaper.com/static/images/cool-backgrounds-random-17514354-1024-640.jpg);
+  background-color: #faf0f2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,25 +10,27 @@ body{
 .uno {
   text-align: center;
   font-size: 1.5em;
-  color: #ffa903;
-  font-family: ‘Comic Sans MS’, cursive;
+  color: #7c266a;
+  font-family: 'Righteous', cursive;
+
 }
 .uno p{
-  color:rgb(81, 174, 204) ;
-  font-family: Impact, Charcoal, sans-serif;
+  color:black;
+  font-family: 'Righteous', cursive;
 
 }
 .dos{
   clear: both;/*La propiedad clear especifica en qué lado de un elemento flotante no se permite flotar.*/
-font-family: ‘Comic Sans MS’, cursive;
+  font-family: 'Righteous', cursive;
 }
 
 .tres{
   float: left;
   width: 33%;
   text-align: center;
-  color: #fff200;
-  font-family: ‘Comic Sans MS’, cursive;
+  color: #1b939c;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
 
 }
 .tres p{
@@ -38,42 +40,48 @@ font-size: 1.3em;
   margin: 20px;
   text-align: center;
   font-size: 1.5em;
-  color: pink;
-  font-family: Impact, Charcoal, sans-serif;
+  color: black;
+  font-family: 'Righteous', cursive;
 
 }
 input[type=text]{
-    background-color: #00a9ff;
-    color: white;
-    width: 80%;
-    padding: 10px;
-    border: none;
+    background-color: #7c266a;
+    color: #f3e2d3;
+    width: 100%;
+    padding: 25px;
+    border:none;
+    border-radius: 10px;
     font-weight: bold;
     box-sizing: border-box;
     text-align: center;
     font-size: 1em;
 }
 input[type=text]::placeholder {
-    color: white;
+    color: #f3e2d3;
     font-weight: bold;
     text-align: center;
     font-size: 1em;
 }
 .boton{
-   background-color: #ff00a9;
+   background-color: #7c266a;
+   height: 50px;
    font-size: 1.1em;
-   font-weight: bold;
-   color: white;
+   color:#f3e2d3;
    padding: 10px;
-   border: none;
+   border-radius: 15px;
+   border:none;
+   border-color:#f3e2d3;
    cursor: pointer;
    width: 40%;
-   font-family: ‘Comic Sans MS’, cursive;
+   font-family: 'Righteous', cursive;
 }
-.divboton{
-  margin-top: 100px;
 
+.boton:hover{
+  background-color:#1b939c;
+  color:#f3e2d3;
+  border-color: #7c266a;
 }
+
 
 .clearfix:before,
 .clearfix:after {/*Clase para limpiar floats*/
@@ -83,4 +91,46 @@ input[type=text]::placeholder {
 
 .clearfix:after {/*Clase para limpiar floats*/
     clear: both;
+}
+.divboton{
+  margin-top: 100px;
+
+}
+
+@media screen and (max-width:480px){
+  .tres{
+    float: none;
+
+  }
+  .boton{
+  text-align: center;
+  display: inline;
+
+ }
+
+}
+
+@media screen and (min-width:481px) and (max-width:760px){
+  .tres{
+    float: none;
+    display: inline;
+  }
+
+  .boton{
+  text-align: center;
+  display: inline;
+
+ }
+}
+
+@media screen and (max-width:761px){
+  .tres{
+    float: none;
+    display: inline;
+  }
+  .boton{
+  text-align: center;
+  display: inline;
+
+ }
 }

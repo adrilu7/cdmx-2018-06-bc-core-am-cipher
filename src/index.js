@@ -2,6 +2,9 @@ let descifrar = document.getElementById('descifrar');//boton
 let cifrar = document.getElementById('cifrar'); //boton
 let string1 = document.getElementById('entrada'); //estos son input
 let offset1 = document.getElementById('offset');//input
+let resultado1 = [];
+let resultado2 = [];
+
 
 cifrar.addEventListener('click', evento => {
  let string= string1.value;
@@ -23,6 +26,9 @@ cifrar.addEventListener('click', evento => {
    }
 }
 });
+
+
+
 
 descifrar.addEventListener('click', evento => {
  let string= string1.value;
@@ -51,3 +57,4 @@ descifrar.addEventListener('click', evento => {
 
 
    ////<div id="root"></div>
+

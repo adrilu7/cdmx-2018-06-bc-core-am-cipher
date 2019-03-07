@@ -11,7 +11,7 @@ describe('cipher', () => {
     });
 
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
-      assert.equal(cipher.encode (33,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'), '<p>Tu texto cifrado es:</p> HIJKLMNOPQRSTUVWXYZABCDEFG');
+      assert.equal(cipher.encode (33,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 'HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
 
@@ -28,12 +28,12 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
-      assert.equal(cipher.decode(33,'HIJKLMNOPQRSTUVWXYZABCDEFG'), '<p>Tu texto descifrado es:</p> ABCDEFGHIJKLMNOPQRSTUVWXYZ');
+      assert.equal(cipher.decode(33,'HIJKLMNOPQRSTUVWXYZABCDEFG'), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
 
     it('debería retornar "¿? #!" para "¿? #" con offest 33', () => {
-      assert.equal(cipher.decode(33,'¿? #'), '<p>Tu texto descifrado es:</p> ? #');
+      assert.equal(cipher.decode(33,'¿? #'), '? #');
     });
 
   });
