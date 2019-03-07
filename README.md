@@ -65,14 +65,14 @@ La interfaz debe:
 - Permitir al usuario decidir entre cifrar o descifrar el mensaje que ingreso.
 - Mostrar el resultado del cifrado o descifrado del mensaje.
 
-# ¿Cómo se usa?**
+# ¿Cómo se usa?
 
-Usuario:
+***Usuario:***
 Da click en el siguiente link -> https://adrilu7.github.io/cdmx-2018-06-bc-core-am-cipher/src/index.html
 - Escribir texto.
 - Dar click en el boton cifrar ó descifrar.
 
-Contribuidor:
+**Contribuidor:**
 - Realiza un fork de este repositorio.
 - Clona el fork a tu computadora.
 - Instala dependencias del proyecto con el comando npm install.
