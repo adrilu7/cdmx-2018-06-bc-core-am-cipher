@@ -14,7 +14,7 @@ personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 
-#Definición del producto
+# Definición del producto
 
 Códigos secretos fue creada para ayudar a los usuarios a poder cifrar y decifrar
 ciertas frases o textos que quieran y compartirlos,en esta ocacion fue diseñada
@@ -27,7 +27,7 @@ modificamos eh hicimos mas facil su manejo y a su vez llame la attención del
 usuario.
 
 
-#¿Cómo se piensa resolver el problema?
+# ¿Cómo se piensa resolver el problema?
 
 Creando una plataforma digital (Cifrado César) donde todxs lxs participantes de la fiesta cifren y descifren los mensajes enviados dentro de un grupo para que el novix no pueda leerlos.
 
@@ -56,24 +56,24 @@ elementos => El número de caracteres válidos a usar. Ej.: 26 para las letras d
 Devolver al nuevo valor ASCII su forma de carácter (devolver el carácter a partir de un valor unicode).
 Mostrar resultados en la pantalla.
 
-#Requerimientos básicos para el desarrollo de la interfaz.
+# Requerimientos básicos para el desarrollo de la interfaz.
 
 La interfaz debe:
 
--Permitir al usuario ingresar un mensaje.
--Permitir al usuario ingresar la clave (número) para cifrar o descifrar el mensaje.
--Permitir al usuario decidir entre cifrar o descifrar el mensaje que ingreso.
--Mostrar el resultado del cifrado o descifrado del mensaje.
+- Permitir al usuario ingresar un mensaje.
+- Permitir al usuario ingresar la clave (número) para cifrar o descifrar el mensaje.
+- Permitir al usuario decidir entre cifrar o descifrar el mensaje que ingreso.
+- Mostrar el resultado del cifrado o descifrado del mensaje.
 
-**¿Cómo se usa?**
+# ¿Cómo se usa?**
 
 Usuario:
 Da click en el siguiente link -> https://adrilu7.github.io/cdmx-2018-06-bc-core-am-cipher/src/index.html
--Escribir texto.
--Dar click en el boton cifrar ó descifrar.
+- Escribir texto.
+- Dar click en el boton cifrar ó descifrar.
 
 Contribuidor:
--Realiza un fork de este repositorio.
--Clona el fork a tu computadora.
--Instala dependencias del proyecto con el comando npm install.
--Si deseas aportar al proyecto escríbenos un issue o haz un pull request.
+- Realiza un fork de este repositorio.
+- Clona el fork a tu computadora.
+- Instala dependencias del proyecto con el comando npm install.
+- Si deseas aportar al proyecto escríbenos un issue o haz un pull request.
